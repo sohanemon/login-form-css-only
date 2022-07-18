@@ -1,0 +1,25 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  row-gap: 5px;
+}
+h1 {
+  width: max-content;
+  margin: 12px auto 20px;
+  font-family: sans-serif;
+}
+input {
+  background-color: skyblue;
+  border: 0px;
+  border-radius: 5px;
+  padding: 15px 10px;
+  font-size: larger;
+}
+input[type="submit"] {
+  background-color: coral;
+  color: wheat;
+  font-weight: 700;
+  font-family: sans-serif;
+}
